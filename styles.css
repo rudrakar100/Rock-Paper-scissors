@@ -74,7 +74,7 @@ h1 {
 #comp-score {
     font-size: 24px;
     font-weight: bold;
-    color: #2ecc71; /* Green color for user score */
+    color: #2ecc71;  
 }
 
 .score p {
@@ -91,7 +91,7 @@ h1 {
 #result-message {
     font-size: 24px;
     font-weight: bold;
-    color: #3498db; /* Blue color for the message */
+    color: #3498db;  
     text-transform: uppercase;
     letter-spacing: 2px;
     margin-bottom: 15px;
@@ -104,7 +104,7 @@ h1 {
     }
 }
 
-/* ... (your existing styles) ... */
+ 
 
 .message-box {
     text-align: center;
@@ -115,12 +115,12 @@ h1 {
 #result-message {
     font-size: 24px;
     font-weight: bold;
-    color: #3498db; /* Blue color for the message */
+    color: #3498db;  
     text-transform: uppercase;
     letter-spacing: 2px;
 }
 
-/* Flying Bubbles Animation */
+ 
 @keyframes flyingBubbles {
     0% {
         transform: translateY(0) scale(1);
@@ -141,5 +141,5 @@ h1 {
     animation: flyingBubbles 1.5s ease-out;
 }
 
-/* ... (your existing styles) ... */
+ 
 

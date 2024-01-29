@@ -66,14 +66,14 @@ const getMatchUp = (user, computer) => {
 
 
 
-// ... (your existing code) ...
+ 
 
 
 
 const triggerFlyingBubbles = () => {
     const messageBox = document.querySelector('.message-box');
     
-    // Create and append flying bubble elements
+   
     for (let i = 0; i < 10; i++) {
         const bubble = document.createElement('div');
         bubble.className = 'flying-bubble';
@@ -82,11 +82,11 @@ const triggerFlyingBubbles = () => {
         messageBox.appendChild(bubble);
     }
 
-    // Remove flying bubbles after animation
+    
     setTimeout(() => {
         const bubbles = document.querySelectorAll('.flying-bubble');
         bubbles.forEach(bubble => bubble.remove());
     }, 1500);
 };
 
-// ... (your existing code) ...
+
